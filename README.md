@@ -124,15 +124,22 @@ O objetivo é **aprender e implementar do zero** os principais paradigmas dessa 
 
 4. Observe a saída e gráficos de convergência para análise do desempenho.
 
-🧪 Licença
+---
 
-Este projeto é distribuído sob a licença MIT — veja o arquivo LICENSE para mais detalhes.
+## 🧪 Licença
 
-✍️ Autor
+Este projeto é distribuído sob a licença **MIT** — veja o arquivo `LICENSE` para mais detalhes.
 
-Renato Samico
-Estudante de Sistemas de Informação e Ciência da Informação | Pesquisador em IA e Computação Evolucionária
-👨‍💻 Foco atual: Problemas de Roteamento, Algoritmos Genéticos e Modelos de Linguagem de Grande Escala (LLMs)
+---
 
-“A evolução é o algoritmo mais poderoso do universo — e a Computação Evolucionária é a forma de reproduzi-lo digitalmente.”
-— John H. Holland
+## ✍️ Autor
+
+**Renato Samico**  
+Estudante de **Sistemas de Informação** e **Ciência da Informação** | Pesquisador em **IA e Computação Evolucionária**  
+👨‍💻 Foco atual: *Problemas de Roteamento, Algoritmos Genéticos e Modelos de Linguagem de Grande Escala (LLMs)*  
+
+---
+
+> “A evolução é o algoritmo mais poderoso do universo — e a Computação Evolucionária é a forma de reproduzi-lo digitalmente.”  
+> — *John H. Holland*
+
