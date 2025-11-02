@@ -89,6 +89,7 @@ O objetivo é **aprender e implementar do zero** os principais paradigmas dessa 
 ├── ...
 │
 └── dia_30_projeto_final.py
+```
 
 ---
 
@@ -111,15 +112,15 @@ O objetivo é **aprender e implementar do zero** os principais paradigmas dessa 
    cd computacao_evolucionaria
    
 2. Crie um ambiente virtual e instale as dependências:
-  ```python -m venv venv
-source venv/bin/activate  # ou venv\Scripts\activate no Windows
-pip install -r requirements.txt
-```
+   ```python -m venv venv
+   source venv/bin/activate  # ou venv\Scripts\activate no Windows
+   pip install -r requirements.txt
+   ```
 
 3. Execute o código do dia:
-```bash
-python dia_05_mutacao.py
-```
+   ```bash
+   python dia_05_mutacao.py
+   ```
 
 4. Observe a saída e gráficos de convergência para análise do desempenho.
 
