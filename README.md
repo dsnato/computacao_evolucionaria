@@ -77,9 +77,10 @@ O objetivo é **aprender e implementar do zero** os principais paradigmas dessa 
 
 ---
 
-## 🚀 Estrutura do Repositório
+## 🗂️ Estrutura do Repositório
 
-📦 computacao_evolucionaria
+```bash
+📦 30-dias-computacao-evolucionaria
 ├── README.md
 ├── dia_01_base_algoritmo_evolucionario.py
 ├── dia_02_algoritmo_genetico_basico.py
@@ -88,7 +89,6 @@ O objetivo é **aprender e implementar do zero** os principais paradigmas dessa 
 ├── ...
 │
 └── dia_30_projeto_final.py
-
 
 ---
 
