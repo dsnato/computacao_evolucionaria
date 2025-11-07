@@ -83,8 +83,8 @@ O objetivo é **aprender e implementar do zero** os principais paradigmas dessa 
 📦 30-dias-computacao-evolucionaria
 ├── README.md
 ├── dia_01_base_algoritmo_evolucionario.py
-├── dia_02_algoritmo_genetico_basico.py
-├── dia_03_selecao_roleta.py
+├── dia_02_GA_classico_maximizar_funcao.py
+├── dia_03_GA_selecao_roleta.py
 │
 ├── ...
 │
