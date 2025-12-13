@@ -103,11 +103,11 @@ def ABC(
 
     return melhor_solucao, melhor_valor
 
-
-# -----------------------------
+# ------------------------------
 # Execução do script
-# -----------------------------
+# ------------------------------
 if __name__ == "__main__":
     sol, valor = ABC(funcao=esfera)
     print("\nMelhor solução encontrada:", sol)
     print("Valor:", valor)
+
