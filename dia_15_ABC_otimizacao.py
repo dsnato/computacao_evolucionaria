@@ -1,10 +1,10 @@
 import numpy as np
 import random
 
-# -------------------------------------------
+# ------------------------------------------
 # Função objetivo (mínimos)
 # Exemplo: esfera (x^2 + y^2 + ...)
-# -------------------------------------------
+# ------------------------------------------
 def esfera(x):
     return np.sum(x ** 2)
 
@@ -110,4 +110,5 @@ if __name__ == "__main__":
     sol, valor = ABC(funcao=esfera)
     print("\nMelhor solução encontrada:", sol)
     print("Valor:", valor)
+
 
