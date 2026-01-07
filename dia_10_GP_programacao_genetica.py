@@ -338,9 +338,9 @@ def target_function(x):
     # combinação de termos simples para criar curva não-trivial
     return x * math.sin(3 * x) + 0.5 * x
 
-# -------------------------
+# ------------------------
 # Execução (script)
-# -------------------------
+# ------------------------
 if __name__ == "__main__":
     # gera dataset
     dataset = make_dataset(target_function, n_samples=50, x_min=-2.0, x_max=2.0)
@@ -388,4 +388,5 @@ if __name__ == "__main__":
     plt.ylabel("y")
     plt.legend()
     plt.grid(True)
+
     plt.show()
