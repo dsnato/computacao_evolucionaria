@@ -30,9 +30,9 @@ import random
 import math
 import matplotlib.pyplot as plt
 
-# -----------------------------------------------------------
+# ----------------------------------------------------------
 # 1️⃣ Parâmetros do GA
-# -----------------------------------------------------------
+# ----------------------------------------------------------
 POP_SIZE = 30           # Tamanho da população
 NUM_GENERATIONS = 50    # Número de gerações
 MUTATION_RATE = 0.1     # Probabilidade de mutação
@@ -148,4 +148,5 @@ def genetic_algorithm():
 # -----------------------------------------------------------
 if __name__ == "__main__":
     genetic_algorithm()
+
 
