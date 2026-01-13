@@ -1,6 +1,6 @@
 """
 📘 DIA 4 — Seleção por Torneio e Pressão Seletiva
--------------------------------------------------
+--------------------------------------------------
 
 Objetivo:
 ---------
@@ -138,3 +138,4 @@ if __name__ == "__main__":
     plt.legend()
     plt.grid(True)
     plt.show()
+
