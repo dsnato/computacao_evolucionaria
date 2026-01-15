@@ -2,9 +2,9 @@ import numpy as np
 import random
 
 
-# --------------------------------------------------------------
+# -------------------------------------------------------------
 # Gerar cidades aleatórias (coordenadas 2D)
-# --------------------------------------------------------------
+# -------------------------------------------------------------
 def gerar_cidades(n=10, limite=100):
     return np.random.rand(n, 2) * limite
 
@@ -119,3 +119,4 @@ if __name__ == "__main__":
     rota, custo = aco_tsp()
     print("\nMelhor rota encontrada:", rota)
     print("Custo total:", custo)
+
