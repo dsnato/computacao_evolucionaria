@@ -1,6 +1,6 @@
 """
 📘 DIA 12 — Estratégias Evolutivas (ES)
-----------------------------------------
+---------------------------------------
 
 Implementação do clássico (μ + λ)-ES para otimização contínua.
 
@@ -143,3 +143,4 @@ if __name__ == "__main__":
     plt.ylabel("Melhor fitness")
     plt.grid(True)
     plt.show()
+
