@@ -1,6 +1,6 @@
 """
 📘 DIA 08 — Algoritmo Genético Binário
---------------------------------------
+---------------------------------------
 
 GA que usa:
 - Cromossomos binários (strings de '0' e '1')
@@ -128,3 +128,4 @@ if __name__ == "__main__":
     plt.ylabel("Melhor Fitness")
     plt.grid(True)
     plt.show()
+
