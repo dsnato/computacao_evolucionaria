@@ -1,6 +1,6 @@
 """
 📘 DIA 07 — Função de Fitness em Problemas Contínuos
-----------------------------------------------------
+-----------------------------------------------------
 
 GA básico para otimização de funções reais usando:
 
@@ -116,3 +116,4 @@ if __name__ == "__main__":
     plt.ylabel("Melhor fitness")
     plt.grid(True)
     plt.show()
+
