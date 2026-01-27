@@ -1,6 +1,6 @@
 """
 📘 DIA 09 — Algoritmo Genético com Elitismo
--------------------------------------------
+--------------------------------------------
 
 Objetivo:
 ---------
@@ -144,3 +144,4 @@ if __name__ == "__main__":
     plt.ylabel("Melhor Fitness")
     plt.grid(True)
     plt.show()
+
