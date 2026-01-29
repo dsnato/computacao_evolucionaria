@@ -1,6 +1,6 @@
 """
 📘 DIA 6 — Mutação Aleatória (Random Mutation)
-----------------------------------------------
+-----------------------------------------------
 
 Operador de mutação simples para manter diversidade em
 Algoritmos Genéticos clássicos com codificação binária.
@@ -114,3 +114,4 @@ if __name__ == "__main__":
     plt.ylabel("Melhor f(x)")
     plt.grid(True)
     plt.show()
+
