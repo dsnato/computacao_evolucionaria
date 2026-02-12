@@ -10,9 +10,9 @@ random.seed(42)
 # Increase the recursion limit to handle potentially deep trees
 sys.setrecursionlimit(2000)
 
-# -------------------------
+# -------------------------------------------
 # Definição do espaço de funções e terminais
-# -------------------------
+# -------------------------------------------
 # Cada função é um tuple (callable, aridade, símbolo)
 FUNCTION_SET = [
     (lambda a, b: a + b, 2, "+"),
@@ -390,3 +390,4 @@ if __name__ == "__main__":
     plt.grid(True)
 
     plt.show()
+
