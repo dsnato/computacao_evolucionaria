@@ -17,9 +17,9 @@ import matplotlib.pyplot as plt
 
 random.seed(42)
 
-# -----------------------------------------------------------
+# ----------------------------------------------------------
 # 1️⃣ Parâmetros do GA
-# -----------------------------------------------------------
+# ----------------------------------------------------------
 POP_SIZE = 30
 N_BITS = 5                  # tamanho do cromossomo
 NUM_GENERATIONS = 40
@@ -128,4 +128,5 @@ if __name__ == "__main__":
     plt.ylabel("Melhor Fitness")
     plt.grid(True)
     plt.show()
+
 
