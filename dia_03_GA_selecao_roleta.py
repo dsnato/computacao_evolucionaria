@@ -1,6 +1,6 @@
 """
 📘 DIA 3 — Seleção por Roleta (Roulette Wheel Selection)
---------------------------------------------------------
+---------------------------------------------------------
 
 Objetivo:
 ---------
@@ -158,3 +158,4 @@ if __name__ == "__main__":
     plt.legend()
     plt.grid(True)
     plt.show()
+
