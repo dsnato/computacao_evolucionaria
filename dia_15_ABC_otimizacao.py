@@ -1,24 +1,24 @@
 import numpy as np
 import random
 
-# -------------------------------------------
+# ----------------------------------------------
 # Função objetivo (mínimos)
 # Exemplo: esfera (x^2 + y^2 + ...)
-# -------------------------------------------
+# ----------------------------------------------
 def esfera(x):
     return np.sum(x ** 2)
 
-# -------------------------------------------
+# ----------------------------------------------
 # Gera uma solução aleatória dentro do intervalo
-# -------------------------------------------
+# ----------------------------------------------
 def gerar_solucao(dim, minimo, maximo):
     return np.random.uniform(minimo, maximo, dim)
 
-# -------------------------------------------
+# ----------------------------------------------
 # Gera solução vizinha (movimento local)
 # x_new = x + phi * (x - x_k)
 # phi in [-1, 1]
-# -------------------------------------------
+# ----------------------------------------------
 def gerar_vizinho(x, populacao, minimo, maximo):
     dim = len(x)
     k = random.randint(0, len(populacao)-1)
@@ -110,6 +110,7 @@ if __name__ == "__main__":
     sol, valor = ABC(funcao=esfera)
     print("\nMelhor solução encontrada:", sol)
     print("Valor:", valor)
+
 
 
 
