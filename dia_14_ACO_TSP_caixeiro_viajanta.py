@@ -16,10 +16,10 @@ def distancia(a, b):
     return np.linalg.norm(a - b)
 
 
-# --------------------------------------------------------------
+# -------------------------------------------------------------
 # Construir rota usando probabilidade baseada em
 # feromônio ^ alpha  *  (1 / distância) ^ beta
-# --------------------------------------------------------------
+# -------------------------------------------------------------
 def construir_rota(feromonio, distancias, alpha=1.0, beta=2.0):
     n = len(distancias)
     visitados = [random.randint(0, n - 1)]
